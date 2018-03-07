@@ -1,0 +1,10 @@
+^(?!.*([\w!@#$%^&*()]{1,})\1\1)(?=.*[A-Za-z])(?=.*\d)[\w!@#$%^&*()]{8,15}$
+
+Username Challenge:
+1. Length: between 8 and 15 characters
+2. Accepted characters:
+   - Numbers (0-9)
+   - Alphabetic characters (a-z or A-Z)
+   - Special Characters [!, @, #, $, %, ^, &, *, (, )]
+3. Must comprise a combination of alphabetic characters and numbers
+4. Not contain 3 or more consecutive identical characters
